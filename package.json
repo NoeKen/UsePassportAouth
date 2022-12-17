@@ -1,0 +1,32 @@
+{
+  "name": "passportaouth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoeKen/UsePassportAouth.git"
+  },
+  "author": "Noe Kenfack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoeKen/UsePassportAouth/issues"
+  },
+  "homepage": "https://github.com/NoeKen/UsePassportAouth#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
